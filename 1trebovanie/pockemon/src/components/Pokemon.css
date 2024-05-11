@@ -1,0 +1,148 @@
+.app {
+    font-family: 'Poppins', sans-serif;
+    font-size: calc(5px + 2vmin);
+    color: #F8F9FA;
+  }
+  
+  .main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .head {
+    background-color: #072AC8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .img {
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: -730px;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 300px;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: #F8F9FA;
+    margin: 20px;
+    box-shadow: 2px 4px 6px 4px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+  }  
+
+  #right {
+    width: 45%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #move-card {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .moves {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: #F8F9FA;
+    color: black;
+    flex: 1 0 150px;
+    margin: 10px;
+    box-shadow: 2px 4px 10px 4px rgba(0, 0, 0, 0.05);
+  }
+
+  .progress-bar {
+    width: 100%;
+    height: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .progress {
+    height: 100%;
+    width: 0;
+    text-align: center;
+    color: white;
+  }
+  
+  .hp {
+    background-color: #72dd78;
+  }
+  
+  .attack {
+    background-color: #ff6961;
+  }
+  
+  .defense {
+    background-color: #ffd700;
+  }
+  
+  .speed {
+    background-color: #ffa500;
+  }
+  
+  .frame {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+  }
+  
+  .breeding {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .default-text {
+    color: black;
+    width: 150px;
+    margin-left: 10px;
+  }
+
+  .text {
+    color: black;
+    width: 300px;
+    margin-left: 10px;
+  }
+
+  .values {
+    margin-left: 10px;
+    border: 2px solid #eaeff1;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: #eaeff1;
+  }
+
+  .poke-name {
+    color: #072AC8;
+    margin-left: 10px;
+  }
+  
+  .values-name {
+    color: #595F65;
+    margin-left: 10px;
+  }
+
+  .poke-img {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0; 
+  }

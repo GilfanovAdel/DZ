@@ -1,0 +1,125 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media only screen and (min-width: 320px) {
+  .ui-card {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .ui-card {
+    width: 20%;
+  }
+}
+
+.main-name {
+  background-color: #072AC8;
+  padding: 10px;
+}
+
+.error {
+  color: black;
+  padding: 10px;
+  text-align: center;
+}
+
+.img-error {
+  display: block;
+  margin: 0 auto;
+  width: 300px;
+  height: 300px;
+}
+
+.search-bar {
+  background-color: #072AC8;
+  padding: 10px;
+}
+
+.search-bar-input {
+  border-radius: 10px;
+  background-color: #F8F9FA;
+  color: #595F65;
+  border: none;
+  width: 200px;
+  height: 50px;
+}
+
+.search-bar-button {
+  margin-left: 5px;
+  border-radius: 10px;
+  background-color: #595F65;
+  color: #F8F9FA;
+  border: none;
+  width: 50px;
+  height: 50px;
+}
+
+.poke-name {
+  color: #072AC8;
+  margin-left: 10px;
+}
+
+.poke-id {
+  color: #595F65;
+  margin-left: 10px;
+}
+
+.types{
+  display: flex;
+  flex-wrap: column;
+  margin-left: 20px;
+}
+
+.type-card {
+  border-radius: 10px;
+  text-align: center;
+  margin: 0 2%;
+  width: 100px;
+  height: 40px;
+  background-color: #F8F9FA;
+  margin-right: 20px;
+}
+
+#poke-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ui-card {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  background-color: #F8F9FA;
+  flex: 1 0 250px;
+  margin: 10px;
+  box-shadow: 2px 4px 6px 4px rgba(0, 0, 0, 0.1);
+}
+
+.poke-img {
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+  height: 150px;
+}
+
+.app {
+  font-family: 'Poppins', sans-serif;
+  font-size: calc(5px + 2vmin);
+  color: #F8F9FA;
+}
+
+.head {
+  background-color: #072AC8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

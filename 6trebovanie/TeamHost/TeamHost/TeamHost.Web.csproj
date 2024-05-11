@@ -1,0 +1,53 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>b55f01ec-acbb-4ae7-9e57-b19ed93c3ea7</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter" Version="8.0.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.19.6" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas\Auth\Data\" />
+    <Folder Include="Areas\Chats\Data\" />
+    <Folder Include="Areas\Chats\Models\" />
+    <Folder Include="Areas\Community\Data\" />
+    <Folder Include="Areas\Community\Models\" />
+    <Folder Include="Areas\Favourites\Data\" />
+    <Folder Include="Areas\Favourites\Models\" />
+    <Folder Include="Areas\Friends\Data\" />
+    <Folder Include="Areas\Friends\Models\" />
+    <Folder Include="Areas\GameProfile\Data\" />
+    <Folder Include="Areas\GameProfile\Models\" />
+    <Folder Include="Areas\Market\Data\" />
+    <Folder Include="Areas\Market\Models\" />
+    <Folder Include="Areas\Store\Data\" />
+    <Folder Include="Areas\Store\Models\" />
+    <Folder Include="Areas\Streams\Data\" />
+    <Folder Include="Areas\Streams\Models\" />
+    <Folder Include="Areas\Wallet\Data\" />
+    <Folder Include="Areas\Wallet\Models\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TeamHost.Application\TeamHost.Application.csproj" />
+    <ProjectReference Include="..\TeamHost.Infrastructure\TeamHost.Infrastructure.csproj" />
+    <ProjectReference Include="..\TeamHost.Persistence\TeamHost.Persistence.csproj" />
+  </ItemGroup>
+
+</Project>
